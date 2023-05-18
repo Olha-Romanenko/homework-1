@@ -1,0 +1,144 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    background: #FFF2F3;
+}
+
+.header-top {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    background: #FFF2F3;
+}
+
+.headtext {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+    margin-right: 87px;
+    margin-top: 30px;
+    margin-left: 195px;
+    width: 141px;
+    height: 32px;
+    left: 0px;
+    top: 13px;
+    letter-spacing: 0.1px;
+
+}
+
+.headmenu {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #737373;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: space-between;
+    margin-left: 21px;
+    margin-top: 33px;
+}
+
+.login {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #96BB7C;
+    margin-top: 34px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Join-us {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 25px;
+    gap: 15px;
+    width: 137px;
+    height: 52px;
+    left: 0px;
+    top: 0px;
+    background: #96BB7C;
+    border-radius: 5px;
+    margin-top: 19px;
+    margin-right: 279px;
+}
+
+.content-header-welcome {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #96BB7C;
+    margin-top: 243px;
+    margin-left: 132px;
+}
+
+.content-header-h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-left: 132px;
+    margin-top: 30px;
+    width: 542px;
+    height: 160px;
+    }
+
+ .content-header-h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 338px;
+    height: 60px;
+    margin-left: 132px;
+    margin-top: 30px;
+    }
+
+    .hr-delimiter {
+        width: 95px;
+        height: 7px;
+        color: #E74040;
+        background-color: #E74040;
+    }
